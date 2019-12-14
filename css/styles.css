@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    
+}
+
+.meet {
+    font-family: 'Lilita One';
+    font-size: 4rem;
+    line-height: 1.4;
+    
+    color: white;
+}
+
+h2 {
+    font-family: 'Lilita One';
+    font-size: 3rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 9%; 
+}
+
+/* navbar */
+
+#brand {
+    font-family: 'Montserrat Subrayada';
+    font-size: 2.2rem;
+}
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.nav-item {
+    padding:0 5px;
+    font-size: 1.4rem;
+    font-family: 'Lilita One';
+}
+
+/* Download-Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width:60%;
+    transform: rotate(15deg);
+    position: absolute;   
+    right: 16%; 
+
+}
+
+@media (max-width:991px)
+{
+    .title-image{
+        width:50%;
+        position: static;
+        transform: none;
+
+    }
+
+    .sm-title {
+        text-align: center;
+    }
+
+    .phone {
+        text-align: center;
+    }
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.col-lg-4 > h3 {
+    font-family: 'Lilita One';
+    font-size: 2rem;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.col-lg-4 > p {
+    color: #8f8f8f;
+}
+
+.feature-img {
+    padding: 4.5%;
+    color: #ff4c68;
+    
+}
+
+.feature-img:hover{
+    color:black;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: rgb(255, 77, 103);
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+    border: 2px solid white;
+}
+
+.carousel-item {
+    padding:7% 15%;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+#press > img {
+
+    width: 15%;
+    margin:20px 40px 50px ;
+}
+
+/* Pricing-Cards */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.card-header {
+    background-color:black;
+    color: white;
+}
+
+/* Conclusion */
+
+#cta {
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding:7% 20%;
+}
+#cta > h3{
+        font-family: 'Lilita One';
+        font-size: 3.5rem;
+        color: white;
+    }
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 7% 10% 5%;
+    background-color: white;
+}
+.footer-img {
+    padding: 2%;
+    
+}
+
+#footer > p {
+    padding-top: 1.5%;
+    color:#8f8f8f
+}
+
+.footer-img:hover{
+    color:#ff4c68;
+}
+
+#footer> a {
+    color:black;
+}
+
+span {
+    font-family: 'Montserrat Subrayada';
+}
+
+/* creator */
+.creator {
+    position: absolute;
+    right: 10px;
+}
+
+@media (max-width:991px)
+{
+    .creator {
+        font-size: 12px;
+    }
+}
